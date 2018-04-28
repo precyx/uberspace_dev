@@ -6,7 +6,7 @@ server.on("connection", (socket) => {
   console.log("new connection...");
 });
 
-server.listen(3000);
+server.listen(80);
 
 /*http.createServer(function(request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
